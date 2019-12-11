@@ -1,0 +1,34 @@
+body{
+  background-color: rgb(255,215,0);
+}
+
+.congrats{
+  margin-top: 10%;
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.message{
+  margin-top: 10%;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+
+  .congrats{
+    margin-top: 75%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+}

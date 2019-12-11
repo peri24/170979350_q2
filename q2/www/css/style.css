@@ -1,0 +1,49 @@
+
+body {
+  background-color: black;
+}
+
+.title{
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.instructions{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.extra{
+  text-align: center;
+  font-size: 15px;
+}
+
+.start{
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+
+  .instructions{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .start{
+    text-align: center;
+    margin-top: 15%;
+  }
+
+}
